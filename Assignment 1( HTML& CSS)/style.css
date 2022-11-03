@@ -1,0 +1,78 @@
+
+    body {
+        font-family: 'Merriweather';
+        color: #f8eeec;
+        background-color: #4c5280;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        padding: 10px;
+        background-color: #5b639c;
+        /*color: #DA70D6;
+        background: rgb(20,31,114);
+        background: linear-gradient(0deg, rgba(20,31,114,1) 0%, rgba(15,54,165,1) 50%, rgba(44,125,250,1) 100%);*/
+        box-sizing: border-box;
+    }
+
+    .logo {
+        height: 75px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    h1 {
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+        width: 50%;
+        font: bold;
+    }
+
+    nav {
+        text-align: center;
+        background-color: white;
+        padding: 10px;
+        left: 0;
+        right: 0;
+        font-size: 25px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+    footer {
+        text-align: center;
+        position: absolute;
+        background-color: #264143;
+        /*width: 100%; page width is over site*/
+        color: #f2ebe9;
+        left: 0;
+        right: 0;
+    }
+
+    table.GeneratedTable {
+          width: 100%;
+          background-color: #ffffff;
+          border-collapse: collapse;
+          border-width: 2px;
+          border-color: #ffcc00;
+          border-style: solid;
+          color: #000000;
+        }
+        
+        table.GeneratedTable td, table.GeneratedTable th {
+          border-width: 2px;
+          border-color: #ffcc00;
+          border-style: solid;
+          padding: 3px;
+        }
+        
+        table.GeneratedTable thead {
+          background-color: #ffcc00;
+        }
