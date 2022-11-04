@@ -1,16 +1,13 @@
 body {
     font-family: 'Merriweather';
-    color: #f8eeec;
-    background-color: #1e1e2c;
+    background-color: #121f26;
     position: relative;
     margin: 0;
     padding: 0;
 }
 
-
-
 header {
-    background-color: #1e1e2c;
+    background-color: #121f26;
     box-sizing: border-box;
     vertical-align: middle;
 }
@@ -24,6 +21,7 @@ header {
 
 h1 {
     text-align: center;
+    color:#b6c3cc;
     display: inline-block;
     vertical-align: middle;
     width: 50%;
@@ -36,14 +34,12 @@ nav {
     right: 0;
 }
 
-
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2d2d44;
+    background-color: #1b2a33;
 }
 
 li {
@@ -52,7 +48,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #b6c3cc;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -64,8 +60,20 @@ li a:hover:not(.active) {
 
 
 .wrap {
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
+    padding: 25px;
+    margin-top: 75px;
+}
+
+.box{
+    border: 1px solid; 
+    color: white;    
+}
+
+.text{
+    padding: 15px 15px;
+    color:#b6c3cc;
 }
 
 
@@ -74,8 +82,8 @@ footer {
     position: absolute;
     height: 70px;
     margin-top: 15px;
-    background-color: #2d2d44;
-    color: #f2ebe9;
+    background-color: #1b2a33;
+    color: #b6c3cc;
     left: 0;
     right: 0;
 }
