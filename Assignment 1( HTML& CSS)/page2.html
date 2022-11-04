@@ -6,77 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
 </head>
-<style>
-    body {
-        font-family: 'Merriweather';
-        color: #f8eeec;
-        background-color: #4c5280;
-        position: relative;
-        margin: 0;
-        padding: 0;
-    }
 
-    header {
-        padding: 10px;
-        background-color: #5b639c;
-        /*color: #DA70D6;
-        background: rgb(20,31,114);
-        background: linear-gradient(0deg, rgba(20,31,114,1) 0%, rgba(15,54,165,1) 50%, rgba(44,125,250,1) 100%);*/
-        box-sizing: border-box;
-    }
+<body
+    style="font-family: Merriweather; color:#f8eeec; background-color: #1e1e2c; position:relative; margin: 0; padding: 0;">
 
-    .logo {
-        height: 75px;
-        display: inline-block;
-        vertical-align: middle;
-    }
-
-    h1 {
-        text-align: center;
-        display: inline-block;
-        vertical-align: middle;
-        width: 50%;
-        font: bold;
-    }
-
-    nav {
-        text-align: center;
-        background-color: white;
-        padding: 10px;
-        left: 0;
-        right: 0;
-        font-size: 25px;
-    }
-
-    nav a {
-        text-decoration: none;
-        color: black;
-    }
-
-
-    footer {
-        text-align: center;
-        position: absolute;
-        background-color: #264143;
-        /*width: 100%; page width is over site*/
-        color: #f2ebe9;
-        left: 0;
-        right: 0;
-    }
-</style>
-
-<body>
     <!--Header section-->
-    <header>
-        <a href="/page1.html"><img src="/assets/logo.png" class="logo"></a>
-        <h1>Chinese New Year</h1>
+    <header style="background-color: #1e1e2c; box-sizing: border-box; vertical-align: middle;">
+        <a href="/page1.html"><img src="/assets/logo.png" class="logo"
+                style="height: 75px; display: inline-block; vertical-align: middle;"></a>
+
+        <h1 style="text-align: center; display: inline-block; vertical-align: middle; width: 50%; font:bold;">Chinese
+            New Year</h1>
+
+
     </header>
     <!--Nav Section-->
-    <nav>
-        <a href="/page1.html">Page 1</a>
-        <a href="/page3.html">Page 3</a>
+    <nav style="text-align: center; left: 0; right: 0;">
+        <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #2d2d44">
+            <li style="float: left;"><a href="/page1.html"
+                    style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Page
+                    1</a></li>
+            <li style="float: left;"><a href="/page3.html"
+                    style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Page
+                    3</a></li>
+        </ul>
     </nav>
     <!--Main Section-->
+
+    <div class="wrap" style="width: 90%; margin: 0 auto;">
     <main>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -106,7 +63,7 @@
             cras fermentum odio eu feugiat pretium. At urna condimentum mattis pellentesque id. Ultricies lacus sed
             turpis tincidunt id aliquet. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus.
             Consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat.
-        </p> 
+        </p>
         <p>
             At elementum eu facilisis sed odio morbi quis. Tempus urna et pharetra pharetra massa. Risus pretium quam
             vulputate dignissim suspendisse in est. Mi tempus imperdiet nulla malesuada pellentesque elit. Cursus mattis
@@ -118,7 +75,8 @@
             nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Nibh venenatis cras sed felis. In eu mi
             bibendum neque. Netus et malesuada fames ac turpis egestas sed tempus urna.
         </p>
-        
+
+        <p>
             In eu mi bibendum neque egestas. Nunc congue nisi vitae suscipit. Sit amet purus gravida quis blandit turpis
             cursus. Bibendum at varius vel pharetra vel turpis nunc eget. Erat pellentesque adipiscing commodo elit at
             imperdiet dui. Hac habitasse platea dictumst vestibulum. Tincidunt dui ut ornare lectus sit. In pellentesque
@@ -126,7 +84,9 @@
             condimentum mattis pellentesque id nibh tortor id aliquet. Adipiscing elit pellentesque habitant morbi
             tristique senectus et netus. Eget mi proin sed libero enim sed faucibus. Id leo in vitae turpis massa sed
             elementum. Commodo odio aenean sed adipiscing. Pellentesque diam volutpat commodo sed egestas.
+        </p>
 
+        <p>
             Magna etiam tempor orci eu lobortis elementum. Dictumst quisque sagittis purus sit amet volutpat consequat
             mauris nunc. In dictum non consectetur a erat nam at. Nunc aliquet bibendum enim facilisis gravida neque
             convallis a. Non consectetur a erat nam. Penatibus et magnis dis parturient montes. Id diam vel quam
@@ -136,7 +96,8 @@
             suspendisse sed nisi lacus sed viverra tellus. Semper quis lectus nulla at volutpat diam ut venenatis.
             Maecenas sed enim ut sem viverra aliquet eget sit. Lobortis mattis aliquam faucibus purus in. Scelerisque
             mauris pellentesque pulvinar pellentesque.
-
+        </p>
+        <p>
             Lectus sit amet est placerat in egestas. Leo a diam sollicitudin tempor. Et netus et malesuada fames ac
             turpis egestas. Eget felis eget nunc lobortis mattis aliquam faucibus purus. Sapien faucibus et molestie ac
             feugiat sed lectus vestibulum. Vel elit scelerisque mauris pellentesque pulvinar pellentesque. Fermentum
@@ -146,21 +107,24 @@
             nulla facilisi etiam. Aliquam purus sit amet luctus venenatis lectus. Vestibulum sed arcu non odio euismod
             lacinia at quis risus. Cras semper auctor neque vitae tempus quam. Tempor id eu nisl nunc mi. Fermentum leo
             vel orci porta. Nulla aliquet porttitor lacus luctus.
-
+        </p>
+        <p>
             Augue interdum velit euismod in. Rutrum quisque non tellus orci ac auctor augue mauris augue. Turpis egestas
             sed tempus urna et pharetra pharetra massa. Nibh tellus molestie nunc non blandit. Facilisis mauris sit amet
             massa. Amet consectetur adipiscing elit pellentesque habitant. Mattis rhoncus urna neque viverra justo nec
             ultrices. Tellus in metus vulputate eu scelerisque. Nunc sed velit dignissim sodales ut eu sem integer. At
             volutpat diam ut venenatis tellus. Nisi vitae suscipit tellus mauris a diam. Mauris ultrices eros in cursus
             turpis massa.
-
+        </p>
+        <p>
             Varius duis at consectetur lorem donec massa. Nulla aliquet enim tortor at auctor urna. Aenean sed
             adipiscing diam donec adipiscing tristique. Amet commodo nulla facilisi nullam vehicula ipsum. Vulputate mi
             sit amet mauris commodo quis imperdiet massa. Diam quam nulla porttitor massa id neque aliquam vestibulum.
             Dis parturient montes nascetur ridiculus. Sagittis nisl rhoncus mattis rhoncus urna neque. Nam at lectus
             urna duis convallis convallis. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Eu feugiat
             pretium nibh ipsum consequat.
-
+        </p>
+        <p>
             Nibh tellus molestie nunc non blandit massa enim. Blandit turpis cursus in hac. Nunc congue nisi vitae
             suscipit tellus mauris a diam maecenas. Ultrices sagittis orci a scelerisque. Morbi tristique senectus et
             netus et malesuada fames ac. Aliquet eget sit amet tellus cras. Lobortis feugiat vivamus at augue eget arcu
@@ -172,13 +136,13 @@
             consequat interdum varius sit amet mattis vulputate enim.
         </p>
     </main>
+</div>
 
     <!--Footer Section-->
-    <footer>
+    <footer
+        style="text-align: center; position: absolute; height: 70px; margin-top: 15px; background-color: #264143; color: #f2ebe9; left: 0; right: 0;">
         <h2>Lai Yan Feng FIN2209743</h2>
     </footer>
-
-
 </body>
 
 </html>
