@@ -2,29 +2,38 @@
 <html>
 
 <head>
-    <title>Questions 1</title>
+    <title>Question 1</title>
 </head>
 
 <body>
+    <a href="./q2.html">Question 2</a>
+    <a href="./q3.html">Question 3</a>
+    <a href="./q4.html">Question 4</a>
+    <br><br><br>
     <div class="images"></div>
     <script type="text/javascript">
-        const images = ["http://placekitten.com/100/300", "http://placekitten.com/100/300", "http://placekitten.com/400/300", "http://placekitten.com/200/300"];
 
+        let images = ["./assets/aster.png", "./assets/carnation.png", "./assets/daisy.png", "./assets/violet.png"];
         for (let x = 0; x < images.length; x++) {
-            const element = '<img src="' + images[x] + '">'
-            document.querySelector('.images').innerHTML += element + "\n";
-
-        }
-
-        for (let x = 0; x < images.length; x++) {
-            const element = '<img src="' + images[x] + '">'
+            let element = '<img src="' + images[x] + '">'
             document.querySelector('.images').innerHTML += element;
         }
 
         for (let x = 0; x < images.length; x++) {
-            const element = '<img src="' + images[x] + '">'
+            let element = '<img src="' + images[x] + '">'
             document.querySelector('.images').innerHTML += element;
         }
+
+        for (let x = 0; x < images.length; x++) {
+            let element = '<img src="' + images[x] + '">'
+            document.querySelector('.images').innerHTML += element;
+        }
+
+        for (let x = 0; x < images.length; x++) {
+            let element = '<img src="' + images[x] + '">'
+            document.querySelector('.images').innerHTML += element;
+        }
+    
     </script>
 </body>
 
