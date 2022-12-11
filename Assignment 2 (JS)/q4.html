@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Question 4</title>
+</head>
+
+<body>
+    <p>4a.</p>
+    <p id="demo"></p>
+    <script type="text/javascript">
+        function myFunction(string) {
+            let spliter = string.split(" ");
+            for (var i = 0; i < spliter.length; i++) {
+                spliter[i] = spliter[i].charAt(0).toLowerCase().bold() + spliter[i].slice(1);
+            }
+            // Directly return the joined string
+            return spliter.join(' ');
+        }
+        document.write(myFunction("THE BEST PREPARATION FOR TOMORROW IS DOING YOUR BEST TODAY"));
+    </script>
+
+    <p>4b.</p>
+    <p>integer 1 = 1</p>
+    <p>integer 2 = 10</p>
+    <p>integer 3 = 100</p>
+    <p id="4b"></p>
+    <script type="text/javascript">
+        let int1 = 1;
+        let int2 = 10;
+        let int3 = 100;
+        let sum = int1 + int2 + int3;
+        document.getElementById("4b").innerHTML = sum;
+    </script>
+</body>
+
+</html>

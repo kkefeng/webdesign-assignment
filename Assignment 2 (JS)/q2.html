@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Question 2</title>
+</head>
+
+<body>
+
+    <input id="userinput" type="text">
+
+    <button onclick="enterbutton()">Enter</button>
+
+    <p id="output"></p>
+
+    <script>
+        function enterbutton() {
+            var flower;
+            var months = document.getElementById("userinput").value;
+
+            switch (months) {
+                case "1":
+                    flower = "Carnation";
+                    document.getElementById("carnation").style.display = "block";
+
+                    break;
+                case "2":
+                    flower = "Violet";
+                    document.getElementById("violet").style.display = "block";
+
+                    break;
+                case "March":
+                    flower = "Daffodil";
+                    document.getElementById("daffodil").style.display = "block";
+                    break;
+
+                case "April":
+                    flower = "Daisy";
+                    document.getElementById("daisy").style.display = "block";
+                    break;
+
+                case "May":
+                    flower = "Lily of the Valley";
+                    document.getElementById("lily").style.display = "block";
+                    break;
+
+                case "June":
+                    flower = "Rose";
+                    document.getElementById("rose").style.display = "block";
+                    break;
+
+                case "July":
+                    flower = "Larkspur";
+                    document.getElementById("larkspur").style.display = "block";
+                    break;
+
+                case "August":
+                    flower = "Gladiolus";
+                    document.getElementById("gladiolus").style.display = "block";
+                    break;
+
+                case "September":
+                    flower = "Aster";
+                    document.getElementById("aster").style.display = "block";
+                    break;
+
+                case "October":
+                    flower = "Marigold";
+                    document.getElementById("marigold").style.display = "block";
+                    break;
+
+                case "November":
+                    flower = "Chrysanthemum";
+                    document.getElementById("chrysanthemum").style.display = "block";
+                    break;
+
+                case "December":
+                    flower = "Narcissus";
+                    document.getElementById("narcissus").style.display = "block";
+                    break;
+
+                default:
+                    flower = "Please enter a valid month";
+            }
+            document.getElementById("output").innerHTML = flower;
+        }
+    </script>
+    <img src="./assets/carnation.png" id="carnation" style="display: none">
+    <img src="./assets/violet.png" id="violet" style="display: none">
+    <img src="./assets/daffodil.png" id="daffodil" style="display: none">
+    <img src="./assets/daisy.png" id="daisy" style="display: none">
+    <img src="./assets/lily-of-the-valley.png" id="lily" style="display: none">
+    <img src="./assets/rose.png" id="rose" style="display: none">
+    <img src="./assets/larkspur.png" id="larkspur" style="display: none">
+    <img src="./assets/gladiolus.png" id="gladiolus" style="display: none">
+    <img src="./assets/aster.png" id="aster" style="display: none">
+    <img src="./assets/marigold.png" id="marigold" style="display: none">
+    <img src="./assets/chrysanthemum.png" id="chrysanthemum" style="display: none">
+    <img src="./assets/narcissus.png" id="narcissus" style="display: none">
+</body>
+
+</html>

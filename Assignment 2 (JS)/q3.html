@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Questions 3</title>
+</head>
+<p>3i</p>
+<p id="print"></p>
+<script>
+    var fastfood = ["KFC, McDonald"];
+    document.getElementById("print").innerHTML = fastfood;
+</script>
+
+<br>
+
+<p>3ii</p>
+<p id="print2"></p>
+<script>
+    var fastfood2 = ["KFC", "McDonald", "Burger King"];
+    document.getElementById("print2").innerHTML = fastfood2;
+</script>
+
+<br>
+
+<p>3iii</p>
+<p id="print3"></p>
+<script>
+    var fastfood3 = ["KFC", "McDonald", "Burger King"];
+    var burger = fastfood3.indexOf("McDonald");
+
+    if (burger !== -1) {
+        fastfood3[burger] = "Wendy";
+    }
+    document.getElementById("print3").innerHTML = fastfood3;
+</script>
+
+
+<br>
+
+<p>3iv</p>
+<p id="print4"></p>
+<script>
+    var fastfood4 = ["KFC", "McDonald", "Burger King"];
+    var burger1 = fastfood3.indexOf("McDonald");
+
+    if (burger !== -1) {
+        fastfood4[burger1] = "Wendy";
+    }
+    document.getElementById("print4").innerHTML = fastfood4[0];
+</script>
+
+<br>
+
+<p>3v</p>
+<p id="print6"></p>
+<script>
+    var fastfood5 = ["KFC", "McDonald", "Burger King"];
+    var burger2 = fastfood5.indexOf("McDonald");
+
+    if (burger !== -1) {
+        fastfood5[burger2] = "Wendy";
+    }
+    var fastfood6 = [fastfood5 + ",Zus Coffee", "Kenny Roger"];
+
+    document.getElementById("print6").innerHTML = fastfood6;
+</script>
+
+</html>

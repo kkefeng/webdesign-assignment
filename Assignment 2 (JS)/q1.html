@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Questions 1</title>
+</head>
+
+<body>
+    <div class="images"></div>
+    <script type="text/javascript">
+        const images = ["http://placekitten.com/100/300", "http://placekitten.com/100/300", "http://placekitten.com/400/300", "http://placekitten.com/200/300"];
+
+        for (let x = 0; x < images.length; x++) {
+            const element = '<img src="' + images[x] + '">'
+            document.querySelector('.images').innerHTML += element + "\n";
+
+        }
+
+        for (let x = 0; x < images.length; x++) {
+            const element = '<img src="' + images[x] + '">'
+            document.querySelector('.images').innerHTML += element;
+        }
+
+        for (let x = 0; x < images.length; x++) {
+            const element = '<img src="' + images[x] + '">'
+            document.querySelector('.images').innerHTML += element;
+        }
+    </script>
+</body>
+
+</html>
