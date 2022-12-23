@@ -1,0 +1,52 @@
+body {
+  font-family: "Merriweather";
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+/*=======Main=======*/
+.wrap {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+.box {
+  border: 2px solid;
+  width: 600px;
+  margin: auto;
+}
+.text {
+  padding: 15px 15px;
+  text-align: center;
+  font-size: 20px;
+}
+.main-title {
+  font-size: 28px;
+  margin: 0 auto;
+}
+.box-text {
+  font-size: 15px;
+  margin: 0 auto;
+}
+.form {
+  text-align: center;
+  margin: auto;
+  display: inline-flex;
+}
+.form td {
+  padding: 12px;
+}
+.form-message {
+  vertical-align: text-top;
+}
+.send-button {
+  margin: auto;
+  float: right;
+  background-color: #b6c3cc;
+  color: #121212;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

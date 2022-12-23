@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contanct Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/global.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="./css/contact-us.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+    <script src="./js/validate-email.js"></script>
+</head>
+<body>
+    <div class="top-nav">
+        <ul>
+            <li><a href="#"><i class="fa fa-fw fa-home"></i> Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+            <li><a href="#"><i class="fa-solid fa-plane"></i> Travel and Explore</a></li>
+            <li><a href="#"><i class="fa-solid fa-image"></i> Memory</a></li>
+            <li><a href="#"><i class="fa-brands fa-js"></i> Javascript</a></li>
+            <li class="right-nav"><a href="#"><i class="fa fa-fw fa-envelope"></i> Contact Us!</a></li>
+        </ul>
+    </div>
+    <!--Main Section-->
+    <div class="wrap">
+        <div class="box">
+            <main class="text">
+                <div class="main-title">
+                    <p>Contact Us !</p>
+                </div>
+                <div class="box-text">
+                    <p>There are simple ways for us to get in touch and answer your questions</p>
+                </div>
+                <div class="form">
+                    <table>
+                        <form action="#" name="form1">
+                            <tr>
+                                <td>
+                                    <label for="first-name">First Name</label>
+                                </td>
+                                <td><input type="text" id="first-name" name="name" placeholder="First name"
+                                        maxlength="25" /></td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="last-name">Last Name</label>
+                                </td>
+                                <td><input type="text" id="last-name" name="name" placeholder="Last name"
+                                        maxlength="25" /></td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="email">Email</label>
+                                </td>
+                                <td><input type="text" id="email" placeholder="Email" name="email" /></td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="phone">Phone number</label>
+                                </td>
+                                <td><input type="number" placeholder="Phone number" id="phone" /></td>
+                            </tr>
+
+                            <tr>
+                                <td class="form-message">
+                                    <label for="text">Message</label>
+                                </td>
+                                <td><textarea id="message" placeholder="Message for us" name="message"></textarea></td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td><input type="submit" value="Send" class="send-button"
+                                        onclick="ValidateEmail(form1.email)"></td>
+                            </tr>
+
+                        </form>
+                    </table>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <p>Footer</p>
+        </footer>
+</body>
+
+</html>
