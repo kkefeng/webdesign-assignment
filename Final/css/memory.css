@@ -1,0 +1,50 @@
+/*gallery*/
+.gallery-container {
+  display: flex;
+  justify-content: center;
+}
+div.gallery {
+  float: left;
+  width: 400px;
+  margin: 15px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/*divider*/
+hr {
+  width: 90%;
+  height: 1px;
+  background-color: #666;
+  opacity: 0.5;
+}
+
+/*gallery*/
+.gallery-container-2 {
+    display: flex;
+    justify-content: center;
+  }
+  div.gallery-2 {
+    float: left;
+    width: 750px;
+    margin: 15px;
+  }
+  
+  div.gallery-2 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc-2 {
+    padding: 15px;
+    text-align: center;
+  }
+  
