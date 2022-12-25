@@ -1,0 +1,38 @@
+/* Video Container*/
+.container {
+    position: relative;
+}
+
+video {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  object-fit: fill;
+}
+
+.container-text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 550;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+}
+
+/* main-text*/
+.main-text {
+    padding: 10px 300px;
+    margin: 10px ;
+}
+
+
+
+
