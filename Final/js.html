@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="./css/global.css" rel="stylesheet">
+    <link href="./css/jsmath.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="./js/math.js"></script>
+    <script src="./js/reset.js"></script>
+</head>
+
+<body>
+    <div class="top-nav">
+        <ul>
+            <li><a href="./home.html"><i class="fa fa-fw fa-home"></i> Home</a></li>
+            <li><a href="./aboutus.html"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+            <li><a href="./travel.html"><i class="fa-solid fa-plane"></i> Travel and Explore</a></li>
+            <li><a href="./memory.html"><i class="fa-solid fa-image"></i> Memory</a></li>
+            <li><a href="./js.html"><i class="fa-brands fa-js"></i> Javascript</a></li>
+            <li class="right-nav"><a href="./contactus.html"><i class="fa fa-fw fa-envelope"></i> Contact Us!</a></li>
+        </ul>
+    </div>
+    <h1>Javascript page</h1>
+
+    <div class="container">
+        <form action="#" id="form">
+
+            <label for="input1">Input 1</label>
+            <input type="text" id="input1" name="input1" placeholder="please enter a number" maxlength="3"
+                minlength="3"><br><br>
+            <label for="input2">Input 2</label>
+            <input type="text" id="input2" name="input2" placeholder="please enter a number" maxlength="3"
+                minlength="3"><br><br>
+            <label for="input3">Input 3</label>
+            <input type="text" id="input3" name="input3" placeholder="please enter a number" maxlength="3"
+                minlength="3"><br><br>
+            <input class="submit" type="submit" value="Calculate" onclick="calculate(); return false;">
+            <input class="reset" type="button" value="Reset" href="js.html" onclick="clearForm()" >
+        </form>
+    </div>
+    <div class="answer">
+        <p id="max"></p>
+        <p id="min"></p>
+        <p id="sum"> </p>
+        <p id="subtract"></p>
+        <p id="multiply"></p>
+        <p id="divide"></p>
+    </div>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+
+</html>

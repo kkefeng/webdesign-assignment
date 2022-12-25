@@ -1,0 +1,13 @@
+/* input form*/
+.container {
+  display: flex;
+  justify-content: center;
+}
+/*submit button*/
+.submit, .reset {
+  width: 100%;
+}
+/*anwser*/
+.answer {
+  text-align: center;
+}
