@@ -2,12 +2,37 @@
 .container {
   display: flex;
   justify-content: center;
+  font-size: 24px;
 }
-/*submit button*/
-.submit, .reset {
+
+input {
+  font-size: 20px;
+}
+/*submit and reset button*/
+.submit,
+.reset {
   width: 100%;
+  appearance: none;
+  background-color:#252525 ;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  margin: 1px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  font-size: 20px;
 }
+
 /*anwser*/
 .answer {
   text-align: center;
+  font-size: 17px;
 }
