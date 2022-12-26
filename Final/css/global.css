@@ -57,5 +57,6 @@ footer {
   font-size: 17px;
   bottom: 0;
   width: 100%;
+  padding: auto 16px;
   text-align: center;
 }
